@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main id="global_card" class="global-card">
+      <picture class="product-img">
+        <source
+          media="(min-width: 950px)"
+          srcset="assets/images/image-product-desktop.jpg"
+          alt="Product-desktop"
+          class="product-desktop"
+        />
+        <img
+          src="assets/images/image-product-mobile.jpg"
+          alt="Product-mobile"
+          class="product-mobile"
+        />
+      </picture>
+      <div class="product-content">
+        <h2 class="product-type">PERFUME</h2>
+        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-description">
+          A floral, solar and voluptuous interpretation composed by Oliver
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <h1 class="actual-price">$149.99</h1>
+          <span class="old-price">$169.99</span>
+        </div>
+        <div class="button-cart">
+          Add to Cart
+          <img src="assets/images/icon-cart.svg" alt="Cart" class="icon-cart" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by:
+        <a
+          class="att-challenge"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by:
+        <a
+          class="att-coded-by"
+          href="https://github.com/P0wertDev"
+          target="_blank"
+          >Rowert Méndez <span class="att-nick">(P0wertDev).</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
